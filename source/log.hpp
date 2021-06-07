@@ -21,7 +21,7 @@
 
 #define WIN32_LEAN_AND_MEAN
 #include "windows.h"
-
+#include <stdint.h>
 namespace DShow {
 
 void Error(const wchar_t *format, ...);
